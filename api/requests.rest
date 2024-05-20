@@ -1,0 +1,15 @@
+GET http://localhost:3001/todos
+###
+
+POST http://localhost:3001/todos/new
+Content-Type: application/json
+
+{
+    "text":"I fucking with you "
+}
+
+###
+DELETE http://localhost:3001/todos/delete/6645acaaaf693973fbaad2b3
+
+###
+PUT http://localhost:3001/todos/complete/6647a8a16682e3e2639ec11d
